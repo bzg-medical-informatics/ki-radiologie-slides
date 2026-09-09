@@ -1,7 +1,12 @@
 \usetheme{metropolis} %set theme
 \setbeamercolor{frametitle}{bg=black,fg=white} 
 \setbeamertemplate{frame footer}{\textbf{\insertshorttitle}}
-\setbeamertemplate{frame numbering}[none]
+\setbeamertemplate{frame numbering}[counter]
+\def\beamer@frametemplate@plain{%
+   \def\beamer@entrycode{\vspace*{-\headheight}}%
+   \def\beamer@exitcode{\vspace*{-\footheight}%
+   }%
+}
 
 
 \usepackage{graphicx} %required for inserting images
@@ -16,6 +21,7 @@
 
 \usepackage{tikz} %drawing
 \usetikzlibrary{positioning}
+\usetikzlibrary{arrows}
 
 \usepackage{authoraftertitle} %for title use in doc
 
