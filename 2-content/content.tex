@@ -23,7 +23,7 @@
     \centering
     \captionsetup{font=footnotesize}
     
-    \includegraphics[scale=.21]{2-content/FyQhPzmakAErIJy.jpeg}
+    \includegraphics[scale=.21]{2-content/images/FyQhPzmakAErIJy.jpeg}
     
     \caption{\url{https://x.com/datacouch_io/status/1667494319916462080}}
     \end{figure}
@@ -67,7 +67,7 @@
     \centering
     \captionsetup{font=footnotesize}
     
-    \includegraphics[scale=.14]{2-content/analytical-engine-1.jpg}
+    \includegraphics[scale=.14]{2-content/images/analytical-engine-1.jpg}
     
     \caption{\url{https://cronatec.ch/how-did-the-analytical-engine-work/}}
     \end{figure}
@@ -78,7 +78,7 @@
     \centering
     \captionsetup{font=footnotesize}
     
-    \includegraphics[scale=.4]{2-content/Z3_Deutsches_Museum.JPG}
+    \includegraphics[scale=.4]{2-content/images/Z3_Deutsches_Museum.JPG}
     
     \caption{\url{https://cronatec.ch/how-did-the-analytical-engine-work/}}
     \end{figure}
@@ -107,7 +107,7 @@
     \centering
     \captionsetup{font=footnotesize}
     
-    \includegraphics[scale=.3]{2-content/KI_History.png}
+    \includegraphics[scale=.3]{2-content/images/KI_History.png}
     
     \caption{\url{https://www.thats-ai.org/de-CH/units/eine-kurze-geschichte-der-ki}}
     \end{figure}
@@ -118,7 +118,7 @@
     \centering
     \captionsetup{font=footnotesize}
     
-    \includegraphics[scale=.27]{2-content/crm-turing_test.jpg}
+    \includegraphics[scale=.27]{2-content/images/crm-turing_test.jpg}
     
     \caption{\url{https://www.techtarget.com/searchenterpriseai/definition/Turing-test}}
     \end{figure}
@@ -160,7 +160,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.28]{2-content/moores_law.png}
+    \includegraphics[scale=.28]{2-content/images/moores_law.png}
     
     \caption{\url{https://towardsdatascience.com/the-future-of-computation-for-machine-learning-and-data-science-fad7062bc27d}}
     \end{figure}
@@ -171,7 +171,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.072]{2-content/data_generation.jpg}
+    \includegraphics[scale=.072]{2-content/images/data_generation.jpg}
     
     \caption{\url{https://www.weforum.org/agenda/2019/04/how-much-data-is-generated-each-day-cf4bddf29f/}}
     \end{figure}
@@ -182,7 +182,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.70]{2-content/data_generation2.png}
+    \includegraphics[scale=.70]{2-content/images/data_generation2.png}
     
     \caption{\url{https://www.business2community.com/statistics-pages/how-much-data-is-created-every-day}}
     \end{figure}
@@ -202,32 +202,94 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.5]{2-content/ml_fields.png}
+    \includegraphics[scale=.5]{2-content/images/ml_fields.png}
     
     \caption{\url{https://databasecamp.de/ki/unsupervised-learning}}
     \end{figure}
 \end{frame}
 
-\begin{frame}{Unsupervised Learning}
-    \begin{bee}[Einsatzgebiete]
-        \begin{enumerate}[$\bullet$]
-            \item Recommender Systems
-            \item Anomaly detection
-            \item Customer Segmentation
-            \item ...
-        \end{enumerate}
-    \end{bee}
+\begin{frame}[shrink=5]{Unsupervised Learning}
+    \begin{columns}[T]
+        \begin{column}{0.47\textwidth}
+            \begin{bee}[Kurz erklärt]
+                Die KI bekommt viele Bilder, aber keine fertigen Antworten. Sie sucht selbst nach Gruppen und auffälligen Mustern.
+                \begin{enumerate}[$\bullet$]
+                    \item Beispiel: ähnliche Röntgenbilder zusammenordnen
+                    \item Die Gruppen entstehen aus den Bildmerkmalen
+                    \item Gut für Entdeckungen, aber die Gruppen müssen von Menschen gedeutet werden
+                \end{enumerate}
+            \end{bee}
+        \end{column}
+        \begin{column}{0.47\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{2-content/images/unsupervised-radiology.png}
+            \par\centering{\scriptsize Röntgenbilder: \cite{wikimedia-normal-chest,wikimedia-bronchiolitis}.\\
+            \url{https://commons.wikimedia.org/wiki/File:Normal_posteroanterior_(PA)_chest_radiograph_(X-ray).jpg}}\par
+        \end{column}
+    \end{columns}
 \end{frame}
 
-\begin{frame}{Unsupervised Learning}
-    \begin{bee}[Algorithmen]
-        \begin{enumerate}[$\bullet$]
-            \item k-Means Clustering
-            \item DBSCAN
-            \item Autoencoders
-            \item ...
-        \end{enumerate}
-    \end{bee}
+\begin{frame}[shrink=5]{Supervised Learning}
+    \begin{columns}[T]
+        \begin{column}{0.47\textwidth}
+            \begin{bee}[Kurz erklärt]
+                Die KI lernt mit vielen Beispielen, bei denen die richtige Antwort schon bekannt ist.
+                \begin{enumerate}[$\bullet$]
+                    \item Beispiel: Bild + Befund ``Tumor'' oder ``kein Tumor''
+                    \item Die KI vergleicht ihre Vorhersage mit der Lösung
+                    \item Danach kann sie neue Bilder einschätzen
+                \end{enumerate}
+            \end{bee}
+        \end{column}
+        \begin{column}{0.47\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{2-content/images/supervised-radiology.png}
+            \par\centering{\scriptsize Röntgenbilder: \cite{wikimedia-normal-chest,wikimedia-bronchiolitis}.\\
+            \url{https://commons.wikimedia.org/wiki/File:Bronchiolitis_chest_X-ray.jpg}}\par
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[shrink=5]{Semi-Supervised Learning}
+    \begin{columns}[T]
+        \begin{column}{0.47\textwidth}
+            \begin{bee}[Kurz erklärt]
+                Ein kleiner Teil der Bilder ist beschriftet. Die vielen unbeschrifteten Bilder helfen der KI trotzdem beim Lernen.
+                \begin{enumerate}[$\bullet$]
+                    \item Wenige Bilder: Befund ist durch Fachpersonen geprüft
+                    \item Viele Bilder: noch kein Befund vorhanden
+                    \item Praktisch, wenn Beschriften viel Zeit kostet
+                \end{enumerate}
+            \end{bee}
+        \end{column}
+        \begin{column}{0.47\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{2-content/images/semi-supervised-radiology.png}
+            \par\centering{\scriptsize Röntgenbilder: \cite{wikimedia-normal-chest,wikimedia-bronchiolitis}.\\
+            \url{https://commons.wikimedia.org/wiki/File:Normal_posteroanterior_(PA)_chest_radiograph_(X-ray).jpg}}\par
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[shrink=5]{Reinforcement Learning}
+    \begin{columns}[T]
+        \begin{column}{0.47\textwidth}
+            \begin{bee}[Kurz erklärt]
+                Die KI probiert Handlungen aus und erhält Rückmeldung. Gute Entscheidungen werden verstärkt, schlechte korrigiert.
+                \begin{enumerate}[$\bullet$]
+                    \item Beispiel: Untersuchungsablauf möglichst sinnvoll planen
+                    \item Belohnung: schneller und trotzdem sicher
+                    \item Die KI lernt durch viele Versuche
+                \end{enumerate}
+            \end{bee}
+        \end{column}
+        \begin{column}{0.47\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{2-content/images/reinforcement-radiology.png}
+            \par\centering{\scriptsize Röntgenbilder: \cite{wikimedia-normal-chest,wikimedia-bronchiolitis}.\\
+            \url{https://commons.wikimedia.org/wiki/File:Bronchiolitis_chest_X-ray.jpg}}\par
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}[plain]{k-Means Clustering}
@@ -235,7 +297,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.35]{2-content/Screenshot from 2024-06-10 23-13-00.png}
+    \includegraphics[scale=.35]{2-content/images/Screenshot from 2024-06-10 23-13-00.png}
     
     \caption{\url{https://www.davidthol.com/clustering-mit-hilfe-des-k-means-algorithmus/}}
     \end{figure}
@@ -246,7 +308,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.5]{2-content/3eee0b_79f8969aef9e47edb2f6169e57c0dc55~mv2.png}
+    \includegraphics[scale=.5]{2-content/images/3eee0b_79f8969aef9e47edb2f6169e57c0dc55~mv2.png}
     
     \caption{\url{https://www.theaidream.com/post/dbscan-clustering-algorithm-in-machine-learning}}
     \end{figure}
@@ -257,7 +319,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.3]{2-content/regression-vs.-classification.png}
+    \includegraphics[scale=.3]{2-content/images/regression-vs.-classification.png}
     
     \caption{\url{https://www.springboard.com/blog/data-science/regression-vs-classification/}}
     \end{figure}
@@ -268,7 +330,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.6]{2-content/Lineare_Regression.png}
+    \includegraphics[scale=.6]{2-content/images/Lineare_Regression.png}
     
     \caption{\url{https://www.springboard.com/blog/data-science/regression-vs-classification/}}
     \end{figure}
@@ -279,7 +341,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.23]{2-content/Lin_reg_example.png}
+    \includegraphics[scale=.23]{2-content/images/Lin_reg_example.png}
     
     \caption{\url{https://studyflix.de/statistik/lineare-regression-2147}}
     \end{figure}
@@ -290,7 +352,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.5]{2-content/Lin_reg_formula.png}
+    \includegraphics[scale=.5]{2-content/images/Lin_reg_formula.png}
     
     \caption{\url{https://studyflix.de/statistik/lineare-regression-2147}}
     \end{figure}
@@ -301,7 +363,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.9]{2-content/logistische-regression-beispiel.png}
+    \includegraphics[scale=.9]{2-content/images/logistische-regression-beispiel.png}
     
     \caption{\url{https://datatab.de/tutorial/logistische-regression}}
     \end{figure}
@@ -312,7 +374,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.8]{2-content/Logistische-Funktion.png}
+    \includegraphics[scale=.8]{2-content/images/Logistische-Funktion.png}
     
     \caption{\url{https://datatab.de/tutorial/logistische-regression}}
     \end{figure}
@@ -332,7 +394,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.8]{2-content/cache_18145092.png}
+    \includegraphics[scale=.8]{2-content/images/cache_18145092.png}
     
     \caption{\url{https://www.rahner-edu.de/grundlagen/signale-richtig-verstehen/digitaltechnik-teil-0/}}
     \end{figure}
@@ -343,7 +405,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.6]{2-content/0 wOYoifz24Wz_I152.png}
+    \includegraphics[scale=.6]{2-content/images/0 wOYoifz24Wz_I152.png}
     
     \caption{\url{https://dev.to/jbahire/demystifying-the-xor-problem-1blk}}
     \end{figure}
@@ -365,7 +427,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.5]{2-content/Stair-Step-function-03.png}
+    \includegraphics[scale=.5]{2-content/images/Stair-Step-function-03.png}
     
     \caption{\url{https://www.geeksforgeeks.org/stair-step-function/}}
     \end{figure}
@@ -388,7 +450,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.4]{2-content/XOR.png}
+    \includegraphics[scale=.4]{2-content/images/XOR.png}
     
     \caption{\url{https://dev.to/jbahire/demystifying-the-xor-problem-1blk}}
     \end{figure}
@@ -399,7 +461,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.6]{2-content/0 158hcRQzzw_wpEZW.png}
+    \includegraphics[scale=.6]{2-content/images/0 158hcRQzzw_wpEZW.png}
     
     \caption{\url{https://dev.to/jbahire/demystifying-the-xor-problem-1blk}}
     \end{figure}
@@ -410,7 +472,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.5]{2-content/Graphic_Gradient-1024x463.png}
+    \includegraphics[scale=.5]{2-content/images/Graphic_Gradient-1024x463.png}
     
     \caption{\url{https://www.methodpark.de/blog/backpropagation-fuer-dummies/}}
     \end{figure}
@@ -421,7 +483,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.22]{2-content/a-cnn-sequence-to-classify-handwritten-digits.png}
+    \includegraphics[scale=.22]{2-content/images/a-cnn-sequence-to-classify-handwritten-digits.png}
     
     \caption{\url{https://saturncloud.io/blog/}}
     \end{figure}
@@ -432,7 +494,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.5]{2-content/1_xrIgEHjLjwoonMMG-E5LxQ.png}
+    \includegraphics[scale=.5]{2-content/images/1_xrIgEHjLjwoonMMG-E5LxQ.png}
     
     \caption{\url{https://medium.com/@prajeeshprathap/}}
     \end{figure}
@@ -443,7 +505,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.5]{2-content/Feature_maps.png}
+    \includegraphics[scale=.5]{2-content/images/Feature_maps.png}
     
     \caption{\url{https://medium.com/analytics-vidhya/the-world-through-the-eyes-of-cnn-5a52c034dbeb}}
     \end{figure}
@@ -454,7 +516,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.4]{2-content/Screenshot 2024-06-11 at 13.06.13.png}
+    \includegraphics[scale=.4]{2-content/images/Screenshot 2024-06-11 at 13.06.13.png}
     
     \caption{\url{https://scott.fortmann-roe.com/docs/BiasVariance.html}}
     \end{figure}
@@ -465,7 +527,7 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.6]{2-content/biasvariance.png}
+    \includegraphics[scale=.6]{2-content/images/biasvariance.png}
     
     \caption{\url{https://scott.fortmann-roe.com/docs/BiasVariance.html}}
     \end{figure}
@@ -476,7 +538,7 @@
     \centering
     \captionsetup{font=footnotesize}
     
-    \includegraphics[scale=.15]{2-content/discriminative_generative.png}
+    \includegraphics[scale=.15]{2-content/images/discriminative_generative.png}
     
     \caption{\url{https://www.kdnuggets.com/2020/05/microsoft-research-three-efforts-advance-deep-generative-models.html}}
     \end{figure}
@@ -487,7 +549,7 @@
     \centering
     \captionsetup{font=footnotesize}
     
-    \includegraphics[scale=.7]{2-content/Screenshot 2024-06-11 at 23.05.31.png}
+    \includegraphics[scale=.7]{2-content/images/Screenshot 2024-06-11 at 23.05.31.png}
     
     \caption{\url{https://writings.stephenwolfram.com/2023/02/}}
     \end{figure}
@@ -498,7 +560,7 @@
     \centering
     \captionsetup{font=footnotesize}
     
-    \includegraphics[scale=.55]{2-content/parameters-of-the-GPT-model.png}
+    \includegraphics[scale=.55]{2-content/images/parameters-of-the-GPT-model.png}
     
     \caption{\url{https://www.simform.com/blog/the-gpt-model-comprehensive-guide/}}
     \end{figure}

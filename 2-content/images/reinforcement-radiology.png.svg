@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f7f8fa"/>
+<text x="600" y="62" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="bold" fill="#20252b">Die KI lernt durch Rückmeldung</text>
+<text x="600" y="102" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#59636e">Gute Entscheidungen werden belohnt, riskante korrigiert</text>
+<g transform="translate(85 190)"><rect width="235" height="160" rx="20" fill="#dceeff" stroke="#2676b8" stroke-width="5"/><text x="117" y="65" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="bold" fill="#174a75">KI</text><text x="117" y="108" text-anchor="middle" font-family="sans-serif" font-size="21" fill="#174a75">plant den Scan</text></g>
+<path d="M345 270h130" stroke="#e27d32" stroke-width="10" fill="none"/><path d="m460 245 35 25-35 25" fill="none" stroke="#e27d32" stroke-width="10"/>
+<g transform="translate(510 155)"><rect width="270" height="230" rx="20" fill="#edf0f3" stroke="#77828c" stroke-width="5"/><text x="135" y="43" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#4e5962">CT-Untersuchung</text><ellipse cx="135" cy="130" rx="75" ry="52" fill="#c2c9cf" stroke="#77828c" stroke-width="4"/><circle cx="135" cy="130" r="25" fill="#f7f8fa" stroke="#77828c" stroke-width="4"/><text x="135" y="200" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#4e5962">sicher und schnell?</text></g>
+<path d="M805 270h120" stroke="#318454" stroke-width="10" fill="none"/><path d="m910 245 35 25-35 25" fill="none" stroke="#318454" stroke-width="10"/>
+<g transform="translate(960 190)"><rect width="190" height="160" rx="20" fill="#e6f4eb" stroke="#318454" stroke-width="5"/><text x="95" y="62" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#23633e">Feedback</text><text x="95" y="106" text-anchor="middle" font-family="sans-serif" font-size="21" fill="#23633e">Belohnung</text><text x="95" y="132" text-anchor="middle" font-family="sans-serif" font-size="21" fill="#23633e">oder Korrektur</text></g>
+<path d="M1055 375c0 90-640 100-850 5" fill="none" stroke="#318454" stroke-width="7" stroke-dasharray="15 12"/><path d="m215 365-20 18 26 8" fill="none" stroke="#318454" stroke-width="7"/>
+<text x="600" y="570" text-anchor="middle" font-family="sans-serif" font-size="25" fill="#20252b">Nach vielen Versuchen findet die KI bessere Abläufe.</text>
+</svg>
