@@ -10,7 +10,6 @@ if ! command -v latexmk >/dev/null 2>&1; then
 fi
 
 echo "[build] Compiling LaTeX presentation..."
-latexmk -C >/dev/null 2>&1 || true
 latexmk -pdf -interaction=nonstopmode -synctex=1 main.tex
 
 echo "[build] Done. Output: $ROOT_DIR/main.pdf"

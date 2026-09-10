@@ -20,7 +20,7 @@ Auf Ubuntu/Debian:
 ./bootstrap.sh
 ```
 
-Das installiert die notwendigen TeX-Pakete, inklusive des fehlenden Gillius-Fonts.
+Das installiert die notwendigen TeX-Pakete, inklusive des Gillius-Fonts und TeXCount für die Wortzählung in VS Code.
 
 ## PDF bauen
 

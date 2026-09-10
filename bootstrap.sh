@@ -20,6 +20,7 @@ if [[ "$(uname)" == "Linux" ]]; then
         texlive-latex-base \
         texlive-latex-recommended \
         texlive-latex-extra \
+        texlive-extra-utils \
         texlive-fonts-extra \
         texlive-science \
         fonts-adf-gillius
@@ -30,6 +31,7 @@ if [[ "$(uname)" == "Linux" ]]; then
         texlive-latex-base \
         texlive-latex-recommended \
         texlive-latex-extra \
+        texlive-extra-utils \
         texlive-fonts-extra \
         texlive-science \
         fonts-adf-gillius
