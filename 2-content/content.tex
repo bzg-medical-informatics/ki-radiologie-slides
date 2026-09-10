@@ -17,14 +17,14 @@
         \textbf{"Künstliche Intelligenz ist die Fähigkeit einer Maschine, menschliche Fähigkeiten wie logisches Denken, Lernen, Planen, and Kreativität zu imitieren."} \end{bee}
 \end{frame}
 
-\begin{frame}[plain]
+\begin{frame}[plain]{Künstliche Intelligenz - Eine Unterteilung}
     \begin{figure}[hp]
     \centering
     \captionsetup{font=footnotesize}
     
     \includegraphics[scale=.18]{2-content/images/FyQhPzmakAErIJy.jpeg}
     
-    \caption{\href{https://x.com/datacouch_io/status/1667494319916462080}{Machine-Learning-Abgrenzung}}
+    \caption{\href{https://x.com/datacouch_io/status/1667494319916462080}{Künstliche Intelligenz - Unterteilung}}
     \end{figure}
 \end{frame}
 
@@ -229,7 +229,7 @@
     
     \includegraphics[scale=.16]{2-content/images/FyQhPzmakAErIJy.jpeg}
     
-    \caption{\href{https://x.com/datacouch_io/status/1667494319916462080}{Machine-Learning-Abgrenzung}}
+    \caption{\href{https://x.com/datacouch_io/status/1667494319916462080}{Künstliche Intelligenz - Unterteilung}}
     \end{figure}
 \end{frame}
 
@@ -396,6 +396,17 @@
     \endgroup
 \end{frame}
 
+\begin{frame}[plain]{Neuronale Netzwerke - Deep Learning}
+    \begin{figure}[hp]
+    \centering
+    \captionsetup{font=footnotesize}
+    
+    \includegraphics[scale=.18]{2-content/images/FyQhPzmakAErIJy.jpeg}
+    
+    \caption{\href{https://x.com/datacouch_io/status/1667494319916462080}{Künstliche Intelligenz - Unterteilung}}
+    \end{figure}
+\end{frame}
+
 \begin{frame}[plain]{Das menschliche Gehirn}
     \begin{figure}[hp]
     \centering
@@ -412,12 +423,11 @@
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.57]{2-content/images/0 wOYoifz24Wz_I152.png}
+    \includegraphics[scale=.17]{2-content/images/perzeptron.png}
     
-    \caption{\href{https://dev.to/jbahire/demystifying-the-xor-problem-1blk}{XOR-Problem}}
+    \caption{\href{https://dev.to/jbahire/demystifying-the-xor-problem-1blk}{Perzeptron}}
     \end{figure}
 \end{frame}
-
 
 \begin{frame}[plain]{Beispiel aus der Digitaltechnik}
     \begin{figure}[hp]
@@ -431,7 +441,40 @@
 \end{frame}
 
 
-\begin{frame}[plain]{Einlagiges Perzeptron (1958)}
+\begin{frame}[plain]{Beispiel aus der Digitaltechnik - AND-Gatter}
+    \begin{figure}[hp]
+    \centering
+    \captionsetup{font=scriptsize}
+    
+    \includegraphics[scale=.2]{2-content/images/and_gatter.png}
+    
+    \caption{\href{https://www.rahner-edu.de/grundlagen/signale-richtig-verstehen/digitaltechnik-teil-0/}{AND-Gatter}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[plain]{Beispiel aus der Digitaltechnik - OR-Gatter}
+    \begin{figure}[hp]
+    \centering
+    \captionsetup{font=scriptsize}
+    
+    \includegraphics[scale=.2]{2-content/images/or_gatter.png}
+    
+    \caption{\href{https://www.rahner-edu.de/grundlagen/signale-richtig-verstehen/digitaltechnik-teil-0/}{OR-Gatter}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[plain]{Beispiel aus der Digitaltechnik - XOR-Gatter}
+    \begin{figure}[hp]
+    \centering
+    \captionsetup{font=scriptsize}
+    
+    \includegraphics[scale=.2]{2-content/images/xor_gatter.png}
+    
+    \caption{\href{https://www.rahner-edu.de/grundlagen/signale-richtig-verstehen/digitaltechnik-teil-0/}{XOR-Gatter}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[plain]{Einlagiges Perzeptron (1958) - Berechnung}
     \begin{bee}[Algorithmus]
             \begin{enumerate}[1)]
                 \item Multipliziere alle Inputs (xi) mit den entsprechenden Gewichten (wi)
@@ -453,7 +496,7 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}[plain]{Einlagiges Perzeptron (1958) - Beispiel}
+\begin{frame}[plain, shrink=2]{Perzeptron (1958) - Beispiel}
     \begin{bee}[Aufgabe]
         Ein AND-Gatter kann mit den folgenden Gewichten modelliert werden:
         \[ w_0=-1, w_1=1, w_2=1 \] 
@@ -476,14 +519,26 @@
     \end{figure}
 \end{frame}
 
+\begin{frame}[plain]{Mehrlagiges Perzeptron - Entstehung von neuralen Netzen}
+    \begin{figure}[hp]
+    \centering
+    \captionsetup{font=scriptsize}
+    
+    \includegraphics[scale=.2]{2-content/images/Hebbsche_Regel.png}
+    
+    \caption{\href{https://www.neuronalesnetz.de/hebb.html}{Neuronales Netz: Hebbsche Regel}}
+    \end{figure}
+\end{frame}
+
+
 \begin{frame}[plain]{Mehrlagiges Perzeptron}
     \begin{figure}[hp]
     \centering
     \captionsetup{font=scriptsize}
     
-    \includegraphics[scale=.6]{2-content/images/0 158hcRQzzw_wpEZW.png}
+    \includegraphics[scale=.17]{2-content/images/neuronales_netz.png}
     
-    \caption{\href{https://dev.to/jbahire/demystifying-the-xor-problem-1blk}{XOR-Problem}}
+    \caption{\href{https://dev.to/jbahire/demystifying-the-xor-problem-1blk}{Neuronales Netz mit Hidden Layer}}
     \end{figure}
 \end{frame}
 
@@ -520,14 +575,25 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}[plain]{Chat-GPT}
+\begin{frame}[plain]{Von Neuronalen Netzen zu Sprachmodellen: Transformer}
+    \begin{figure}[hp]
+    \centering
+    \captionsetup{font=footnotesize}
+    
+    \includegraphics[scale=.2]{2-content/images/Transformer.png}
+    
+    \caption{\href{https://arxiv.org/abs/1706.03762}{Transformer: Attention is all you need}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[plain]{Sprachmodelle - Vorhersage von Wörtern}
     \begin{figure}[hp]
     \centering
     \captionsetup{font=footnotesize}
     
     \includegraphics[scale=.7]{2-content/images/Screenshot 2024-06-11 at 23.05.31.png}
     
-    \caption{\href{https://writings.stephenwolfram.com/2023/02/}{ChatGPT-Erklärung}}
+    \caption{\href{https://writings.stephenwolfram.com/2023/02/}{Sprachmodelle: Vorhersage von Wörtern}}
     \end{figure}
 \end{frame}
 
@@ -547,7 +613,10 @@
         Arbeite dich in 2er-Teams durch die Lernstrecke zu einfachen Textmodellen:
             \begin{enumerate}[1)]
                 \item \href{https://inf-schule.de/ki/menueansicht/ki_erkunden/papagei/lernstrecke}{Lernstrecke Sprachmodelle (inf-schule.de)}
-                \item Halte deine Erkenntnisse in schriftlicher Form fest.
+                \item Wie entsteht aus Trainingstexten ein Sprachmodell?
+                \item Warum entstehen bei gleicher Eingabe unterschiedliche Texte?
+                \item Welchen Einfluss haben die Trainingsdaten auf die Ausgabe?
+                \item Welche Grenzen hat dieses einfache Sprachmodell?
             \end{enumerate}
     \end{bee} 
 \end{frame}
@@ -560,6 +629,17 @@
     \includegraphics[scale=.23]{2-content/images/Soekia.png}
     
     \caption{\href{https://www.soekia.ch/GPT/}{Soekia}}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[plain]{Soekia vs. Large Language Models (LLM)}
+    \begin{figure}[hp]
+    \centering
+    \captionsetup{font=footnotesize}
+    
+    \includegraphics[scale=.19]{2-content/images/soekia_vs_llm.png}
+    
+    \caption{\href{https://www.soekia.ch}{Soekia vs. LLMs}}
     \end{figure}
 \end{frame}
 
